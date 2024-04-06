@@ -38,7 +38,7 @@ npm run start
 
 ### Test the Library with a test webapp
 
-Locate in *my-test-app* subdirectory, install the dependencies and execute the webapp with the following commabnds:
+Navigate to the *my-test-app* subdirectory, install the dependencies and execute the webapp with the following commands:
 ```bash
 cd my-test-app
 npm i
