@@ -1,0 +1,39 @@
+# Dependency directories
+/node_modules
+
+# Production build directory
+/build
+
+# Environment variables file
+.env
+
+# IDE files
+.vscode
+.idea
+
+# Editor backup files
+*.swp
+*~
+
+# Build process and tooling files
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript build directory
+/dist
+
+# Testing directories
+/coverage
+/.nyc_output
+/jest
+
+# OS-generated files
+Thumbs.db
+.DS_Store
+*.DS_Store
+
+/my-test-app
