@@ -1,5 +1,6 @@
 # Dependency directories
 /node_modules
+/my-test-app/node_modules
 
 # Production build directory
 /build
@@ -35,5 +36,3 @@ pnpm-debug.log*
 Thumbs.db
 .DS_Store
 *.DS_Store
-
-/my-test-app

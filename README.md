@@ -5,10 +5,7 @@ This project serves as a starting point for building and publishing React librar
 ## Features
 
 - **TypeScript**: Write React components with TypeScript for type safety and enhanced developer experience.
-- **Rollup**: Bundling your library using Rollup enables tree-shaking and generates optimized builds.
-- **Jest & React Testing Library**: Provides testing utilities for writing unit tests and integration tests for your components.
-- **ESLint & Prettier**: Maintains code quality and ensures consistent code style across the project.
-- **GitHub Actions**: CI/CD pipeline setup for automated testing and publishing releases.
+- **Webpack**: Bundling your library using Webpack enables tree-shaking and generates optimized builds.
 
 ## Getting Started
 
@@ -17,8 +14,8 @@ This project serves as a starting point for building and publishing React librar
 Clone this repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/my-library.git
-cd my-library
+git clone https://github.com/your-username/react-ts-sample-package.git
+cd react-ts-sample-package
 npm install
 ```
 

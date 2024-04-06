@@ -7,7 +7,7 @@ module.exports = {
     filename: 'index.js', // Output filename for your library
     path: path.resolve(__dirname, 'dist'), // Output directory
     library: { // Define library name for external usage
-      name: 'my-library', // Replace with your library name
+      name: 'react-ts-sample-package', // Replace with your library name
       type: 'umd', // Support CommonJS, AMD, and ES modules
     },
   },
