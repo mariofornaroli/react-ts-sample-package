@@ -14,8 +14,8 @@ This project serves as a starting point for building and publishing React librar
 Clone this repository and install the dependencies:
 
 ```bash
-git clone https://github.com/mariofornaroli/react-ts-sample-package.git
-cd react-ts-sample-package
+git clone https://github.com/mariofornaroli/react-input-labels.git
+cd react-input-labels
 npm install
 ```
 

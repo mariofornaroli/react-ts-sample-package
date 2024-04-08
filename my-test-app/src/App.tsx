@@ -1,15 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import MyComponent from 'react-ts-sample-package'
+import ReactInputLabels from 'react-input-labels'
 
 function App() {
+  const [searchTextTags, setSearchTextTags] = useState<any>([])
   return (
     <div className="App">
       <header className="App-header">
-        <MyComponent />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <ReactInputLabels 
+        values={searchTextTags}
+        onChange={(newVal: any) => {setSearchTextTags(newVal)}}
+        placeholder={`Enter tags`}
+        className="all-events-search-tags"/>
+         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a

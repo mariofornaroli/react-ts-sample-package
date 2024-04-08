@@ -7,7 +7,7 @@ module.exports = {
     filename: 'index.js', // Output filename for your library
     path: path.resolve(__dirname, 'dist'), // Output directory
     library: { // Define library name for external usage
-      name: 'react-ts-sample-package', // Replace with your library name
+      name: 'react-input-labels', // Replace with your library name
       type: 'umd', // Support CommonJS, AMD, and ES modules
     },
   },
@@ -21,6 +21,10 @@ module.exports = {
         use: 'ts-loader', // Use ts-loader for TypeScript compilation
         exclude: /node_modules/,
       },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
+      }
     ],
   },
   externals: { // Externalize React to avoid bundling it

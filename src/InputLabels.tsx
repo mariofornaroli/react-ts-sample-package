@@ -28,7 +28,7 @@ const CodeItemList = (props: ReactInputLabelsProps) => {
   }
 
   const getLabels = (): JSX.Element[] => {
-    return values?.map((lv: string, i: number) => {
+    return values.map((lv: string, i: number) => {
       return <LabelItem
         key={`item-${i}`}
         value={lv}
@@ -42,7 +42,6 @@ const CodeItemList = (props: ReactInputLabelsProps) => {
   return (
     <React.Fragment>
       <div className={`codes-container ${className}`}>
-        <h2>XXXXYYYY</h2>
         {getLabels()}
         <input
           value={value}
