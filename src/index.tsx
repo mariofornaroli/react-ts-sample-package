@@ -42,7 +42,6 @@ const CodeItemList = (props: ReactInputLabelsProps) => {
   return (
     <React.Fragment>
       <div className={`codes-container ${className}`}>
-        <h2>XXXXYYYY</h2>
         {getLabels()}
         <input
           value={value}
